@@ -33,16 +33,16 @@
  -CUDA (for GPU acceleration)
 
 ## Installation
-    Install the necessary packages:
+Install the necessary packages:
   ```sh
   pip install torch transformers peft datasets tensorboard
   ```
 
 ## Data Preparation
-    Data was extracted and formatted from the Constitution of Pakistan into instruction-response pairs. These pairs were used to fine-tune the model.
+Data was extracted and formatted from the Constitution of Pakistan into instruction-response pairs. These pairs were used to fine-tune the model.
 
 ## Fine-Tuning
-    The fine-tuning process is conducted using LoRA to efficiently adapt the LLaMA-2 model for the legal domain.
+The fine-tuning process is conducted using LoRA to efficiently adapt the LLaMA-2 model for the legal domain.
 
 ```sh
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
