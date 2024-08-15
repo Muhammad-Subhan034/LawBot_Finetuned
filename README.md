@@ -3,14 +3,22 @@
 LawBot is an AI-powered chatbot designed to assist with legal inquiries related to the Constitution of Pakistan. Leveraging the LLaMA-2-7b model from Meta, LawBot has been fine-tuned to provide accurate and contextually relevant explanations of constitutional articles.
 
 ## Features
+
 - ## Fine-Tuned LLaMA-2-7b Model:
-  Specifically tailored for legal text from the Constitution of Pakistan.
+This project utilizes the LLaMA-2-7b model, a state-of-the-art language model developed by Meta. The model has been fine-tuned specifically on legal text derived from the Constitution of Pakistan. This specialization allows the model to accurately understand and generate responses related to constitutional law, making it an effective tool for legal professionals, students, and researchers who require detailed and precise insights into legal content.
+
 - ## Instruction-Response Training:
-  The model is trained on custom instruction-response pairs extracted from constitutional content.
+The model has been trained using a custom dataset of instruction-response pairs, meticulously extracted from the Constitution of Pakistan. This training method allows the model to handle specific queries by providing contextually accurate and relevant responses. The training process focuses on enhancing the model’s ability to generate human-like responses to complex legal instructions, ensuring that it can assist in legal interpretation and analysis with high reliability.
+
 - ## Low-Rank Adaptation (LoRA):
-  Utilized to fine-tune the model efficiently while preserving computational resources.
+Low-Rank Adaptation (LoRA) is employed in this project to efficiently fine-tune the LLaMA-2-7b model. LoRA reduces the number of 
+trainable parameters by introducing low-rank matrices into the model, specifically targeting the attention layers. This approach 
+allows for significant computational savings while maintaining the model's performance. By only adjusting these smaller matrices, 
+LoRA enables effective adaptation to the legal texts from the Constitution of Pakistan without the need for extensive computational 
+resources. This makes fine-tuning feasible even on limited hardware, ensuring a balance between efficiency and accuracy.
+
 - ## High-Performance:
-  Supports inference with FP16 for optimal speed on compatible hardware.
+The model supports inference using FP16 (16-bit floating-point precision), which is optimized for modern GPUs. This capability allows the model to perform faster computations, reducing latency during inference without compromising the quality of the responses. The use of FP16 ensures that the model runs efficiently on compatible hardware, making it suitable for deployment in real-time legal consultation tools or applications where quick and accurate information retrieval is crucial.
 
 ## Project Structure
 
