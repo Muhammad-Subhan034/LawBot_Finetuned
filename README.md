@@ -3,13 +3,13 @@
     LawBot is an AI-powered chatbot designed to assist with legal inquiries related to the Constitution of Pakistan. Leveraging the LLaMA-2-7b model from Meta, LawBot has been fine-tuned to provide accurate and contextually relevant explanations of constitutional articles.
 
 ## Features
-- ##Fine-Tuned LLaMA-2-7b Model:
+- ## Fine-Tuned LLaMA-2-7b Model:
           Specifically tailored for legal text from the Constitution of Pakistan.
-- ##Instruction-Response Training:
+- ## Instruction-Response Training:
           The model is trained on custom instruction-response pairs extracted from constitutional content.
-- ##Low-Rank Adaptation (LoRA):
+- ## Low-Rank Adaptation (LoRA):
           Utilized to fine-tune the model efficiently while preserving computational resources.
-- ##High-Performance:
+- ## High-Performance:
           Supports inference with FP16 for optimal speed on compatible hardware.
 
 ## Project Structure
