@@ -97,7 +97,7 @@ trainer.save_model()
 ```
 
 ## Model Deployment
-    After training, the model is merged and prepared for deployment. The following script demonstrates how to load and use the merged model:
+After training, the model is merged and prepared for deployment. The following script demonstrates how to load and use the merged model:
 
 ```sh
 from transformers import AutoModelForCausalLM, AutoTokenizer
