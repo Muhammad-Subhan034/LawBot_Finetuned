@@ -24,8 +24,8 @@ LawBot is an AI-powered chatbot designed to assist with legal inquiries related 
    Merge and deploy the fine-tuned model for production use.
 
 ## Requirements
- -Python 3.8+
- -PyTorch
+    -Python 3.8+
+    -PyTorch
  -Hugging Face Transformers
  -PEFT (Parameter-Efficient Fine-Tuning)
  -Hugging Face Datasets
