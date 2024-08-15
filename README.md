@@ -4,24 +4,24 @@
 
 ## Features
 - ## Fine-Tuned LLaMA-2-7b Model:
-          Specifically tailored for legal text from the Constitution of Pakistan.
+  Specifically tailored for legal text from the Constitution of Pakistan.
 - ## Instruction-Response Training:
-          The model is trained on custom instruction-response pairs extracted from constitutional content.
+  The model is trained on custom instruction-response pairs extracted from constitutional content.
 - ## Low-Rank Adaptation (LoRA):
-          Utilized to fine-tune the model efficiently while preserving computational resources.
+  Utilized to fine-tune the model efficiently while preserving computational resources.
 - ## High-Performance:
-          Supports inference with FP16 for optimal speed on compatible hardware.
+  Supports inference with FP16 for optimal speed on compatible hardware.
 
 ## Project Structure
 
  - ## Data Preparation:
-          Extract and format data from the Constitution of Pakistan.
+   Extract and format data from the Constitution of Pakistan.
  - ## Model Fine-Tuning:
-          Fine-tune the LLaMA-2-7b model using LoRA.
+   Fine-tune the LLaMA-2-7b model using LoRA.
  - ## Model Evaluation:
-          Test and validate the model's performance on unseen data.
+   Test and validate the model's performance on unseen data.
  - ## Model Deployment:
-          Merge and deploy the fine-tuned model for production use.
+   Merge and deploy the fine-tuned model for production use.
 
 ## Requirements
  -Python 3.8+
